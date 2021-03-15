@@ -40,9 +40,9 @@ public function getBusinessHoursAttribute($value)
 }
 ```
 
-In this case the fields name will be `open_hours`. Customize this according to your database column name.
+In this case the fields name will be `business_hours`. Customize this according to your database column name.
 
-Afterwards you can use it to fill the OpenHours class with your existing business hours like this:
+Afterwards you can use it to fill the `OpeningHours` class with your existing business hours like this:
 
 ```php
 // Add the use at the top of each file where you want to use the OpeningHours class:
